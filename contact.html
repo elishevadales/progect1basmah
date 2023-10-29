@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+
+    <header class="container-fluid center px-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href="index.html">
+                    Silence
+                </a>
+            </div>
+
+            <nav id="nav_open">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a href="FAQ.html">FAQ</a>
+                <a href="trivia.html">Trivia</a>
+            </nav>
+            <i id="burger_btn" class="fa fa-bars fa-3x" aria-hidden="true"></i>
+        </div>
+    </header>
+
+
+    <main class="container-fluid">
+        <div class="container">
+            <div class="contant mb-5">
+                <div class="title mx-auto text-center">
+                    <p class="display-5">Contact Us</p>
+                </div>
+                <form action="thanku.html" class="mt-4 center flex-column">
+                    <div class="inputs row justify-content-center mb-4">
+                        <div class="details center col-sm-10  col-md-6 col-lg-5 row">
+                            <input class="lead" name="name" type="text" placeholder="Your Name *" required>
+                            <input  class="lead" name="phone" type="tel" placeholder="Phone Number *" required>
+                            <input  class="lead" name="mail" type="email" placeholder="Email *" required>
+                        </div>
+                        <div class="massage center col-sm-10 col-md-6 col-lg-5 ">
+                            <textarea class="lead" placeholder="Your Massage..." name="massage" cols="30" rows="10"
+                                required></textarea>
+                        </div>
+                    </div>
+ 
+                    <button class="lead">
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <footer class="container-fluid lead">
+        <div class="container text-center">
+            <div class="icons">
+                <a href="https://twitter.com/homedesigning" target="_blank"><i class="fa fa-twitter"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/home_design68/?hl=he" target="_blank"><i class="fa fa-instagram"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/home_design/" target="_blank"><i class="fa fa-facebook-official"
+                        aria-hidden="true"></i></a>
+                <a href="https://il.linkedin.com/home_design" target="_blank"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></a>
+            </div>
+            <p>© All rights reserved to Elisheva Dales <br> The company was founded in 2023</p>
+        </div>
+    </footer>
+
+
+
+    <script src="burger.js"></script>
+</body>
+
+</html>

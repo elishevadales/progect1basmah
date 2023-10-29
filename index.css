@@ -1,0 +1,197 @@
+.strip-mobile{
+    min-height: 80vh;
+    background-image: url(images/carrousel1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.strip {
+    min-height: 100vh;
+}
+
+.strip .carousel-item .bg_pic {
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.strip .carousel-item .pic1 {
+    background-position: bottom;
+}
+
+.strip .carousel-item .pic2 {
+    background-position: center;
+}
+
+.strip .carousel-item .pic3 {
+    background-position: center;
+}
+
+.strip .carousel-item .pic4 {
+    background-position: center;
+}
+
+.strip .carousel-caption {
+    background: rgba(0, 0, 0, 0.539);
+}
+
+/* end of strip */
+
+ main{
+    min-height: 300px;
+}
+main .left{
+
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main .text p:last-of-type{
+    width: 70%;
+}
+main .left .box{
+    margin: 10px 0;
+transition: 800ms;
+}
+main .left .box:hover{
+    transform: scale(1.2,1.2);
+}
+main .left .product{
+
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 50px 20px;  
+}
+main .left .product1{
+    background-image: url(images/product1.jpg);
+}
+main .left .product2{
+    background-image: url(images/product2.jpg);
+}
+main .left .product3{
+    background-image: url(images/product3.jpg);
+}
+main .left .product4{
+    background-image: url(images/product4.jpg);
+}
+main .left .product5{
+    background-image: url(images/product5.jpg);
+}
+main .left .product6{
+    background-image: url(images/product6.jpg);
+}
+main .left .product .text-pic{
+    background: rgba(221, 108, 127, 0.741);
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main .left a{
+    background: rgb(221, 108, 127);
+    padding: 15px 70px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px rgb(221, 108, 127) solid;
+}
+main .left a:hover{
+    background: white;
+    color: rgb(221, 108, 127);
+}
+
+main .right{
+    background-image: url(images/designer3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+main .right p{
+    width: 50%;
+}
+
+main .right a{
+    background: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+main .right a:hover{
+    background: rgb(221, 108, 127);
+    color: white;
+}
+
+
+
+/* end of main */
+
+.club {
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    padding: 20px;
+}
+
+.club .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/club2.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: Brightness(50%) grayscale(100%) Opacity(80%);
+    z-index: -1;
+}
+
+.club .in-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid white;
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.club h2{
+    text-decoration: none;
+    color: rgb(221, 108, 127);
+    font-size: 50px;
+    font-family: 'Lobster';
+}
+
+.club a{
+    background: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+.club a:hover{
+    background: rgb(221, 108, 127);
+    color: white;
+}
+
+
+/* end of club */
+
+@media (max-width: 576px){
+    main .left .box{
+        width: 70%;
+        margin: 20px auto;
+    }
+}

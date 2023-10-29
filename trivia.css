@@ -1,0 +1,49 @@
+body{
+    background-image: url(images/background.jpg);
+  }
+  
+  main{
+    min-height: 100vh;
+  }
+  main .container{
+    background: rgba(255, 255, 255, 0.735);
+    padding: 50px;
+    border-radius: 20px;
+  }
+  
+ main .title{
+    border-bottom: 2px solid rgb(221, 108, 127);
+    width: 50%;
+}
+  main h2 {
+    text-align: center;
+    color: rgb(221, 108, 127);
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  main .answers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  main button{
+    width:40%;
+    background: white;
+    border: 2px solid rgb(221, 108, 127);
+    text-align: center;
+    padding:8px;
+    margin:4px;
+    cursor: pointer;
+    transition: 400ms;
+    /* border: none; */
+    border-radius: 20px;
+  }
+  
+  main button:hover{
+    background: rgb(221, 108, 127);
+  }
+  main .score{
+    color: rgb(221, 108, 127);
+  }

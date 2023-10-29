@@ -1,0 +1,17 @@
+main{
+    min-height: 100vh;
+    margin-top: 100px;
+}
+main .accordion .accordion-item button{
+    background: rgb(221, 108, 127);
+    color: white;
+}
+main .accordion .accordion-item .accordion-collapse .accordion-body{
+    background: rgba(255, 255, 255, 0.693);
+}
+
+main .title{
+    border-bottom: 2px solid rgb(221, 108, 127);
+    width: 50%;
+    color: gray;
+}

@@ -1,0 +1,22 @@
+main{
+    margin-top: 80px;
+
+}
+main .container{
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+
+main  a{
+    background: rgb(221, 108, 127);
+    padding: 15px 70px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px rgb(221, 108, 127) solid;
+}
+main  a:hover{
+    background: white;
+    color: rgb(221, 108, 127);
+}

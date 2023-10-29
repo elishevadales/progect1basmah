@@ -1,0 +1,45 @@
+.strip{
+    margin-top: 100px;
+}
+.strip .title{
+    border-bottom: 2px solid rgb(221, 108, 127);
+    width: 50%;
+    color: gray;
+}
+
+main{
+    min-height: 500px;
+}
+
+main figure{
+    color: white;
+    cursor: pointer;
+    transition: 800ms;
+
+}
+main figure:hover{
+    transform: rotate(10deg);
+}
+main figure .pic{
+    box-shadow: 5px 7px 24px -7px rgba(0,0,0,0.76);
+
+}
+main figure img{
+    width: 100%;
+}
+main figcaption{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 12px;
+background: rgb(221, 108, 127);
+}
+
+main figure img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.videos iframe{
+    margin-bottom: 24px;
+}

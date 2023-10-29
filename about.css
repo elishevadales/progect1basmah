@@ -1,0 +1,23 @@
+main{
+    min-height: 100vh;
+    margin-top: 100px;
+}
+main .title{
+    border-bottom: 2px solid rgb(221, 108, 127);
+    width: 50%;
+}
+
+main article .img1{
+    max-width: 250px;
+}
+.img2-box{
+    max-width: 600px;
+    overflow: hidden;
+    max-height: 400px;
+    margin-bottom: 10px;
+}
+.img2-box img{
+object-fit: cover;
+width: 95%;
+
+}
