@@ -38,7 +38,6 @@ const declareEvents = function () {
   // לייצר רשימה שיש בה את כל התמונות עם אטרביוט
   let imgList = document.querySelectorAll("img[data-img]");
 
-  //console.log(imgList);
   // לולאה על כל התמונות
   imgList.forEach(function (itemElem) {
     // גורם שהסמן עכבר יהפוך לאצבע ת
